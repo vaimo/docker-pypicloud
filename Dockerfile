@@ -15,6 +15,7 @@ ENV PYPICLOUD_VERSION=0.5.2 \
     PYPI_STORAGE=file \
     PYPI_STORAGE_DIR=/var/lib/pypicloud/packages \
     PYPI_STORAGE_BUCKET=changeme \
+    PYPI_STORAGE_HOST= \
     AWS_ACCESS_KEY_ID=changeme \
     AWS_SECRET_ACCESS_KEY=changeme \
     PYPI_AUTH=config \

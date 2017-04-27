@@ -18,6 +18,7 @@ Configuration is provided via runtime environment variables.
 | `PYPI_STORAGE` | file | The package storage strategy. Options: `file`, `s3`, `cloudfront` ([docs](http://pypicloud.readthedocs.io/en/latest/topics/storage.html)) |
 | `PYPI_STORAGE_DIR` | /var/lib/pypicloud/packages | Where to store packages when using the `file` option for `PYPI_STORAGE` variable. |
 | `PYPI_STORAGE_BUCKET` | changeme | The S3 bucket to store packages when using the `s3` option for `PYPI_STORAGE` variable. |
+| `PYPI_STORAGE_HOST` | (none) | The S3 compatible API fqdn/IP when using the `s3` option for `PYPI_STORAGE` variable. On other systems, this variable could be called an endpoint. |
 | `AWS_ACCESS_KEY_ID` | changeme | The AWS access key ID to use when accessing an s3 bucket. |
 | `AWS_SECRET_ACCESS_KEY` | changeme | The AWS secret access key to use when accessing an S3 bucket. |
 | `PYPI_AUTH` | config | The authentication mode to use. Options: `config`, `sql`, `remote`, `ldap` ([docs](http://pypicloud.readthedocs.io/en/latest/topics/access_control.html)) |

@@ -18,6 +18,7 @@ keys = [
     "/pypi/processes",
     "/pypi/http",
     "/pypi/storage/bucket",
+    "/pypi/storage/host",
     "/pypi/ssl/crt",
     "/pypi/ssl/key",
     "/pypi/ldap/url",
