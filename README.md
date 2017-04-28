@@ -9,6 +9,7 @@ Configuration is provided via runtime environment variables.
 | Env Var | Default | Description |
 | ------- | ------- | ----------- |
 | `PYPI_ADMIN_PASSWORD` | secret (encrypted) | The encrypted password to use for the admin user if using `config` auth method. This must be the encrypted form. See [below](#generating-passwords). |
+| `PYPI_DB` | sql | Local metadata cache backend. Options: `sql`, `redis`, `dynamo` ([docs](http://pypicloud.readthedocs.io/en/latest/topics/cache.html))|
 | `PYPI_DB_URL` | sqlite:////var/lib/pypicloud/db.sqlite | The DB connection URL for the local metadata cache. |
 | `PYPI_AUTH_DB_URL` | sqlite:////var//lib/pypicloud/db.sqlite | The DB connection URL for the auth DB if `PYPI_AUTH`=`sql` |
 | `PYPI_SESSION_ENCRYPT_KEY` | replaceme | Key to use when encryption session data. |

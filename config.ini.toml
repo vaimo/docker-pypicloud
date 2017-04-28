@@ -10,6 +10,7 @@ keys = [
     "/pypi/default/read",
     "/pypi/cache/update",
     "/pypi/admin/password",
+    "/pypi/db",
     "/pypi/db/url",
     "/pypi/auth/db/url",
     "/pypi/session/encrypt/key",
